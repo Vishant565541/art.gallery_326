@@ -28,10 +28,6 @@ const ARTWORKS = [
   { img: "images/art-20.jpg", no: "020", title: "Curated Masterwork No. 20", artist: "@art.gallery_326", medium: "Fine Art Collection, 2026" },
   { img: "images/art-21.jpg", no: "021", title: "Curated Masterwork No. 21", artist: "@art.gallery_326", medium: "Fine Art Collection, 2026" },
   { img: "images/art-22.jpg", no: "022", title: "Curated Masterwork No. 22", artist: "@art.gallery_326", medium: "Fine Art Collection, 2026" },
-  { img: "images/art-23.jpg", no: "023", title: "Spiritual Serenity Portrait", artist: "@art.gallery_326", medium: "Charcoal on Plaster, 2026" },
-  { img: "images/art-24.jpg", no: "024", title: "The Offering (Lotus Study)", artist: "@art.gallery_326", medium: "Charcoal & Graphite, 2026" },
-  { img: "images/art-25.jpg", no: "025", title: "Celestial Nexus", artist: "@art.gallery_326", medium: "Acrylic & Gold Leaf on Canvas, 2026" },
-  { img: "images/art-26.jpg", no: "026", title: "Majestic Elephant Study", artist: "@art.gallery_326", medium: "Charcoal & Gold Leaf, 2026" },
 ];
 
 let currentLightboxIndex = 0;
@@ -291,56 +287,6 @@ const REELS = [
     desc: "Full wall hang highlights and volume exhibition walkthrough.",
     url: "https://www.instagram.com/art.gallery_326",
     poster: "images/art-05.jpg",
-    video: "images/user-reel-5.mp4"
-  },
-  {
-    id: "youtube-video-1",
-    title: "YouTube Short — Serenity Portrait Creation",
-    tag: "YouTube",
-    duration: "Speed Drawing",
-    desc: "Full charcoal rendering process of the Spiritual Serenity Portrait.",
-    url: "https://www.youtube.com/@artgallery-0326",
-    poster: "images/art-23.jpg",
-    video: "images/user-reel-1.mp4"
-  },
-  {
-    id: "youtube-video-2",
-    title: "YouTube Short — Hands Study Shading",
-    tag: "YouTube",
-    duration: "Drawing Tutorial",
-    desc: "Smudging and shading techniques on textured plaster paper.",
-    url: "https://www.youtube.com/@artgallery-0326",
-    poster: "images/art-24.jpg",
-    video: "images/user-reel-2.mp4"
-  },
-  {
-    id: "youtube-video-3",
-    title: "YouTube Short — Gold Leaf Detailing",
-    tag: "YouTube",
-    duration: "Gold Detailing",
-    desc: "Applying delicate gold leaf to the Majestic Elephant sketch.",
-    url: "https://www.youtube.com/@artgallery-0326",
-    poster: "images/art-26.jpg",
-    video: "images/user-reel-3.mp4"
-  },
-  {
-    id: "youtube-video-4",
-    title: "YouTube Short — Swirling Acrylics Studio Session",
-    tag: "YouTube",
-    duration: "Studio Vlog",
-    desc: "Palette mixing and gold foil application on Celestial Nexus.",
-    url: "https://www.youtube.com/@artgallery-0326",
-    poster: "images/art-25.jpg",
-    video: "images/user-reel-4.mp4"
-  },
-  {
-    id: "youtube-video-5",
-    title: "YouTube Video — Main Wall Exhibition Tour",
-    tag: "YouTube",
-    duration: "Exhibition Tour",
-    desc: "Walkthrough of our new 26-piece fine art exhibition wall.",
-    url: "https://www.youtube.com/@artgallery-0326",
-    poster: "images/hero.jpg",
     video: "images/user-reel-5.mp4"
   }
 ];
