@@ -100,6 +100,16 @@ button{ font-family:inherit; cursor:pointer; }
   transform: translateY(-3px);
   box-shadow: 0 8px 28px rgba(185, 141, 70, 0.55);
 }
+.btn--youtube{
+  background: linear-gradient(135deg, #FF0000 0%, #C30000 100%);
+  color: #FFFFFF !important; font-weight: 600;
+  box-shadow: 0 4px 18px rgba(255, 0, 0, 0.25);
+}
+.btn--youtube:hover{
+  background: linear-gradient(135deg, #FF3333 0%, #D60000 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 8px 28px rgba(255, 0, 0, 0.45);
+}
 .btn--ghost-light{ border-color: rgba(241,236,225,.4); color: var(--plaster); }
 .btn--ghost-light:hover{ border-color: var(--brass-lt); background: rgba(241,236,225,.08); transform: translateY(-3px); box-shadow: 0 4px 20px rgba(185, 141, 70, 0.2); }
 
@@ -515,6 +525,8 @@ button{ font-family:inherit; cursor:pointer; }
                      radial-gradient(circle at 80% 80%, rgba(110,42,52,.18), transparent 50%);
 }
 .follow__inner{ max-width: 680px; margin:0 auto; text-align:center; }
+.follow__buttons{ display: flex; gap: 1.2rem; justify-content: center; margin-top: 2.2rem; flex-wrap: wrap; }
+.follow__buttons .follow__btn{ margin-top: 0; }
 .follow__btn{ margin-top: .6rem; }
 .follow__hint{ margin-top: 2.2rem; font-family: var(--mono); font-size:.78rem; color:#9C96A6; }
 .follow__hint code{ color: var(--brass-lt); }
