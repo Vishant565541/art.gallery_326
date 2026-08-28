@@ -77,5 +77,4 @@ the folder with any static server (e.g. `python3 -m http.server`) and visit
   placard (catalog no., title, artist, medium) — same pattern used in the
   full-screen lightbox.
 - Fully responsive, keyboard-accessible (frames are focusable and
-
-# art.gallery_326
+  Enter/Space-activated), and respects `prefers-reduced-motion`.
