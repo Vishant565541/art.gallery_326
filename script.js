@@ -378,32 +378,6 @@ if (submitForm) {
   });
 }
 
-/* ---- 7. Category Filter Logic --------------------------------------------- */
-const categoryButtons = document.querySelectorAll("#categoryFilter .filter-btn");
-if (categoryButtons.length) {
-  categoryButtons.forEach((btn) => {
-    btn.addEventListener("click", () => {
-      categoryButtons.forEach((b) => b.classList.remove("is-active"));
-      btn.classList.add("is-active");
-      const filter = btn.getAttribute("data-filter");
-
-      const frames = document.querySelectorAll("#galleryGrid .frame");
-      frames.forEach((frame, idx) => {
-        if (filter === "all") {
-          frame.style.display = "block";
-        } else if (filter === "devotional" && (idx === 0 || idx === 3 || idx === 8 || idx === 12 || idx === 17)) {
-          frame.style.display = "block";
-        } else if (filter === "color" && (idx % 2 === 1)) {
-          frame.style.display = "block";
-        } else if (filter === "sketch" && (idx % 2 === 0 && idx !== 0)) {
-          frame.style.display = "block";
-        } else {
-          frame.style.display = "none";
-        }
-      });
-    });
-  });
-}
 
 /* ---- 8. Digital Studio Painting Workbench Canvas ----------------------- */
 const wbCanvas = document.getElementById("workbenchCanvas");
